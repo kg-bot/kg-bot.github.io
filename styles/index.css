@@ -1,0 +1,13 @@
+body {
+	background-image: url("bgimages/bglinux.jpg");
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.first_paragraph {
+	color: red;
+}
+.erep_redirect:hover {
+	background-image: url("small_images/32/1.png")
+}

@@ -1,0 +1,36 @@
+body {
+	background-image: url("bgimages/ircbgpage.jpg");
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+#mibbit_widgett {
+	display: block;
+    width: 800px;
+    height: 600px;
+	margin: auto;
+    border: 2px solid yellow;
+}
+#mibbit_quote {
+	text-align: center;
+	color: green;
+}
+#mibbit_quote_second {
+	color: red;
+}
+.mibbit_help {
+	text-align: center;
+	color: white;
+}
+.mibbit_help {
+	text-align: center;
+}
+#qwebirc {
+	display: block;
+	width: 800px;
+	height: 600px;
+	margin: 20px auto;
+	border: 0;
+}
+	

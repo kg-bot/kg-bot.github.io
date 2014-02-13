@@ -21,10 +21,21 @@ body {
 }
 .mibbit_help {
 	text-align: center;
-	color: white;
+	color: darkorange;
+	margin: auto;
+	width: 800px;
+	height: 100px;
 }
-.mibbit_help {
+.mainmenu {
 	text-align: center;
+}
+#connect_problems {
+	width: 500px;
+	height: 600px;
+}
+#mibbit_help_text {
+	text-align: left;
+	color: darkgreen;
 }
 #qwebirc {
 	display: block;

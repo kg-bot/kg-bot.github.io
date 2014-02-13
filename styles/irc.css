@@ -51,4 +51,11 @@ body {
 #ip_finder {
 	width: 250px;
 	height: 100%;
+	margin: auto;
+}
+#ip_flag {
+	width: 250px;
+	height: 100%;
+	margin: auto;
+	margin-left: 630px;
 }

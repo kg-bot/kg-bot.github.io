@@ -1,0 +1,20 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+		<title>My First Web Page</title>
+		<link type="text/css" rel="stylesheet" href="styles/index.css">
+	</head>
+
+	<body>
+		<div class="first_paragraph">
+			<p id="0">This is my first web page :).</p>
+		</div>
+		<!--Da bas vidim-->
+		<a class="erep_redirect" href="http://www.erepublik.com">
+			<img id="erep_image_2" alt="Go to eRepublik" title="Go to eRep" src="styles/small_images/32/2.png"></a>
+		<br><a href="irc.html">IRC Channel</a><br>
+		<button id="button_changes" type="button" onclick="getItBack()" ondblclick="alertmeplease()">Please click me!!</button>
+		<script type="text/javascript">function alertmeplease() { document.getElementById("0").innerHTML="You have clicked me and I've changed text, roflmfao." }</script>
+		<script type="text/javascript">function getItBack() { document.getElementById("0").innerHTML="This is my first web page :)." }</script>
+	</body>
+</html>

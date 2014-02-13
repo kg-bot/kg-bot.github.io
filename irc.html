@@ -16,7 +16,8 @@
 		<script>
 			function echoIp() {
 				document.getElementById("ip_finder").innerHTML="Your IP address is:" + " " + codehelper_ip.IP;
-				document.getElementById("ip_flag").innerHTML="<img src="+ codehelper_ip.Flag + ">
+				document.getElementById("ip_flag").innerHTML="<img src="+ codehelper_ip.Flag + ">";
+				document.getElementById("ip_flag").style="";
 				document.getElementById("ip_finder").style="color:darkorange;";
 			}
 		</script>
@@ -32,7 +33,7 @@
 		</blockquote>
 		<div class="body_widgets">
 		<p id="ip_finder" style=""></p>
-		<p id="ip_flag" style="visibility:hidden"><img src=""></p>
+		<p id="ip_flag" style="visibility:hidden;"><img src=""></p>
 		<iframe id="mibbit_widgett" scrolling="no" src="http://widget.mibbit.com/?settings=fa1e099a838c446c6e595ce6f9c09658&amp;server=rizon.mibbit.org&amp;channel=%23b365"></iframe>
 		</div>
 		<div class="mibbit_help">

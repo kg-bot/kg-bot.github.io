@@ -44,3 +44,11 @@ body {
 	margin: 20px auto;
 	border: 0;
 }
+.body_widgets {
+	width: auto;
+	height: auto;
+}
+#ip_finder {
+	width: 250px;
+	height: 100%;
+}

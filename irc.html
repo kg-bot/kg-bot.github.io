@@ -12,8 +12,15 @@
 				alert("Hi, please use your registered nick if you're going to use IRC. Have a nice day!!!")
 			}
 		</script>
+		<script type="text/javascript" src="http://www.codehelper.io/api/ips/?js"></script>
+		<script>
+			function echoIp() {
+				document.getElementById("ip_finder").innerHTML="Your IP address is:" + " " + codehelper_ip.IP;
+				document.getElementById("ip_finder").style="color:darkorange;";
+			}
+		</script>
 	</head>
-	<body onload="helper()">
+	<body onload="helper(), echoIp()">
 		<div class="mainmenu">
 		<a id="home_button" href="index.html"><img title="Home" alt="Home Page" src="styles/small_images/Home.png"></a>
 		<a id="irc_button" href="irc.html"><img title="IRC" alt="IRC Page" src="styles/small_images/IRC Channel.png"></a>
@@ -22,7 +29,10 @@
 			<p>IRC so easy your mom could use it.</p>
 			<p id="mibbit_quote_second">Josh Lowensohn, CNet News.</p>
 		</blockquote>
+		<div class="body_widgets">
+		<p id="ip_finder" style=""></p>
 		<iframe id="mibbit_widgett" scrolling="no" src="http://widget.mibbit.com/?settings=fa1e099a838c446c6e595ce6f9c09658&amp;server=rizon.mibbit.org&amp;channel=%23b365"></iframe>
+		</div>
 		<div class="mibbit_help">
 			<h1>Connecting with Mibbit</h1>
 			<p id="mibbit_help_text">To connect you need to choose valid, registered nick<br>it must be registered because you can't join our channel with unregistered nick.</p>

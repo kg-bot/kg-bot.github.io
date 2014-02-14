@@ -34,7 +34,7 @@ body {
 	height: 600px;
 }
 #mibbit_help_text {
-	text-align: left;
+	text-align: center;
 	color: darkgreen;
 }
 #qwebirc {
@@ -52,10 +52,18 @@ body {
 	width: 250px;
 	height: 100%;
 	margin: auto;
+	text-align: center;
 }
 #ip_flag {
 	width: 250px;
 	height: 100%;
 	margin: auto;
-	margin-left: 560px;
+	text-align: center;
+}
+#if_no_script {
+	color: red;
+	font-weight: bold;
+}
+#flag_source {
+	text-align: center;
 }

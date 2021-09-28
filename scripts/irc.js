@@ -23,7 +23,7 @@ var text4_2 = document.createTextNode("it must be registered because you can't j
 var iframe2 = document.createElement("iframe");
 
 iframe2.id="qwebirc";
-iframe2.src="http://qchat2.rizon.net/?channels=b365&uio=Mj10cnVlJjc9dHJ1ZQbf";
+iframe2.src="https://qchat2.rizon.net/?channels=b365&uio=Mj10cnVlJjc9dHJ1ZQbf";
 
 p5.id="mibbit_help_text";
 p5.appendChild(text4);
@@ -38,7 +38,7 @@ div3.appendChild(p5);
 
 iframe1.id="mibbit_widgett";
 iframe1.scrolling="no";
-iframe1.src="http://widget.mibbit.com/?settings=fa1e099a838c446c6e595ce6f9c09658&server=rizon.mibbit.org&channel=%23b365";
+iframe1.src="https://widget.mibbit.com/?settings=fa1e099a838c446c6e595ce6f9c09658&server=rizon.mibbit.org&channel=%23b365";
 
 img3.src="";
 img3.id="flag_source";
